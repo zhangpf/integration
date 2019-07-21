@@ -384,6 +384,11 @@
     <package name="fuchsia/third_party/bazel/${platform}"
              path="prebuilt/sdk/bazel"
              version="version:0.17.2"
-             platforms="linux-amd64,mac-amd64"/>
+	     platforms="linux-amd64,mac-amd64"/>
+    <!-- testsharder -->
+    <package name="fuchsia/tools/testsharder/${platform}"
+	     path="buildtools/{{.OS}}-{{.Arch}}"
+	     version="git_revision:69282376d4bbdd24f2d88e24165ba6aca7a0d47e"
+	     paltforms="linux-amd64,linux-arm64,mac-amd64"/>
   </packages>
 </manifest>
