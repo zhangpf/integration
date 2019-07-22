@@ -3,8 +3,7 @@
   <projects>
      <project name="integration"
               path="integration"
-              remote="https://fuchsia.googlesource.com/integration"
-              githooks=""
-              gerrithost="https://fuchsia-review.googlesource.com"/>
+              remote="https://github.com/fuchsia-rs/integration"
+              remotebranch="fuchsia-rs"/>
   </projects>
 </manifest>
