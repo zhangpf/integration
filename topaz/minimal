@@ -6,8 +6,7 @@
   <projects>
     <project name="topaz"
              path="topaz"
-             remote="https://fuchsia.googlesource.com/topaz"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="54bd645bb50f5310eeacf7d60d9024c63ff38ab9"/>
+             remote="https://github.com/fuchsia-rs/topaz-rs"
+             revision="2a01f333151a9e565b58d55226dc652d1c6fa35d"/>
   </projects>
 </manifest>
