@@ -390,5 +390,10 @@
 	     path="buildtools/{{.OS}}-{{.Arch}}"
 	     version="git_revision:69282376d4bbdd24f2d88e24165ba6aca7a0d47e"
 	     paltforms="linux-amd64,linux-arm64,mac-amd64"/>
+    <!-- testrunner -->
+    <package name="fuchsia/tools/testrunner/${platform}"
+	     path="buildtools/{{.OS}}-{{.Arch}}"
+	     version="git_revision:69282376d4bbdd24f2d88e24165ba6aca7a0d47e"
+	     paltforms="linux-amd64,linux-arm64,mac-amd64"/>
   </packages>
 </manifest>
